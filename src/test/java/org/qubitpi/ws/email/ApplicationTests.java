@@ -18,11 +18,16 @@ package org.qubitpi.ws.email;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * The entity webservice integration tests.
+ */
 @SpringBootTest
 class ApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    /**
+     * Make sure the context is creating controller.
+     */
+    @Test
+    void contextLoads() {
+    }
 }

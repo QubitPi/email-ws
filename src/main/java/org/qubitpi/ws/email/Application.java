@@ -18,11 +18,19 @@ package org.qubitpi.ws.email;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * The main JAR for running the entity WS.
+ */
 @SpringBootApplication
 public class Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
-
+    /**
+     * Entry point.
+     *
+     * @param args  Not used
+     */
+    @SuppressWarnings("UncommentedMain")
+    public static void main(final String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
 }

@@ -1,4 +1,4 @@
-package org.qubitpi.email_ws;
+package org.qubitpi.ws.email;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

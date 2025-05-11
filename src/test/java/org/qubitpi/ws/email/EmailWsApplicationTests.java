@@ -1,4 +1,4 @@
-package org.qubitpi.email_ws;
+package org.qubitpi.ws.email;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
